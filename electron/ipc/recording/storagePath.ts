@@ -22,3 +22,4 @@ export function resolveRecordedVideoStoragePath(recordingsDir: string, fileName:
 
 	return candidatePath;
 }
+

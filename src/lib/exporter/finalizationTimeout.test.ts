@@ -210,3 +210,4 @@ describe("finalizationTimeout", () => {
 		expect(recovered.lastAudioProgress).toBe(0.25);
 	});
 });
+

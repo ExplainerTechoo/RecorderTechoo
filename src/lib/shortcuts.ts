@@ -134,3 +134,4 @@ export function mergeWithDefaults(partial: Partial<ShortcutsConfig>): ShortcutsC
 	}
 	return merged;
 }
+

@@ -109,3 +109,4 @@ export function getResourceFileName(resource: string, fallback: string): string 
 
 	return fallback;
 }
+

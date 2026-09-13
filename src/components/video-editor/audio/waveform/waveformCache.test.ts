@@ -37,3 +37,4 @@ describe("VersionedWaveformCache", () => {
 		expect(cache.get("mic-c-v1")).toBe("c");
 	});
 });
+

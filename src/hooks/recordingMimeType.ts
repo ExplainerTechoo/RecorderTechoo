@@ -57,3 +57,4 @@ export function getVideoExtensionForMimeType(
 ): ".mp4" | ".webm" {
 	return /^video\/mp4(?:[;\s]|$)/i.test(mimeType ?? "") ? ".mp4" : ".webm";
 }
+

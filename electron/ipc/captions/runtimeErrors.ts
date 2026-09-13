@@ -8,3 +8,4 @@ export function isMissingWindowsWhisperRuntimeDependency(error: unknown) {
 	const code = (error as { code?: unknown }).code;
 	return typeof code === "number" && WINDOWS_MISSING_RUNTIME_EXIT_CODES.has(code);
 }
+

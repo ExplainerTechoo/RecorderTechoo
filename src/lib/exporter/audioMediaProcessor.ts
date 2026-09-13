@@ -280,3 +280,4 @@ export class AudioMediaProcessor extends AudioTimelineProcessor {
 	// Build non-overlapping timeline slices from the source timeline, excluding
 	// trimmed regions and tagging each slice with its playback speed.
 }
+

@@ -14,3 +14,4 @@ export function getFinalMacCompanionAudioPath(
 	const sourceExtension = path.extname(sourceAudioPath).toLowerCase() || ".m4a";
 	return `${videoPathWithoutExt}.${suffix}${sourceExtension}`;
 }
+

@@ -126,3 +126,4 @@ describe("editorHistory", () => {
 		expect(areEditorHistorySnapshotsEqual(snapshot, createSnapshot("first"))).toBe(true);
 	});
 });
+

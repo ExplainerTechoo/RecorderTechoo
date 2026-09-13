@@ -126,3 +126,4 @@ function AudioWaveformComponent({
 }
 
 export default memo(AudioWaveformComponent);
+

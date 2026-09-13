@@ -149,3 +149,4 @@ export function hardenWebContentsNavigation(
 		createWindowOpenHandler(() => webContents.getURL(), openExternal, reportOpenError),
 	);
 }
+

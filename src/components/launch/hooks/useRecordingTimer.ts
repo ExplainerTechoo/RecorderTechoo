@@ -52,3 +52,4 @@ export function useRecordingTimer(recording: boolean, paused: boolean) {
 
 	return { elapsed, formatTime };
 }
+

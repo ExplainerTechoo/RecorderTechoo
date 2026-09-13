@@ -53,3 +53,4 @@ function ClipMarkerOverlayComponent({ videoDurationMs }: ClipMarkerOverlayProps)
 }
 
 export default memo(ClipMarkerOverlayComponent);
+

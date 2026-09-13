@@ -49,7 +49,7 @@ export function collectCodeSigningMetadataErrors(details, expectedTeamId) {
 	const timestamp = readCodeSignValue(details, "Timestamp");
 	const codeDirectory = details.split(/\r?\n/).find((line) => line.startsWith("CodeDirectory "));
 
-	if (identifier !== "dev.recordly.app") {
+	if (identifier !== "dev.RecorderTechoo.app") {
 		errors.push(`unexpected bundle identifier: ${identifier ?? "missing"}`);
 	}
 
@@ -136,3 +136,4 @@ export function collectArchitectureErrors(filePath, lipoOutput, buildArch) {
 		`${filePath} does not contain ${expectedArchitecture} (found: ${architectures.join(", ") || "none"})`,
 	];
 }
+

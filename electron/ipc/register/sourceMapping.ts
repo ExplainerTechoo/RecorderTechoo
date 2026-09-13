@@ -33,3 +33,4 @@ export function getScreenSourceIdForDisplay({
 
 	return `screen:fallback:${displayId}`;
 }
+

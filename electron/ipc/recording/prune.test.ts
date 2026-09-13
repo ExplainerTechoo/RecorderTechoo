@@ -11,7 +11,7 @@ describe("pruneAutoRecordings", () => {
 	let appPath: string;
 
 	beforeEach(async () => {
-		tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "recordly-prune-"));
+		tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "RecorderTechoo-prune-"));
 		appDataPath = path.join(tempRoot, "AppData");
 		userDataPath = path.join(tempRoot, "UserData");
 		tempPath = path.join(tempRoot, "Temp");
@@ -128,3 +128,4 @@ describe("pruneAutoRecordings", () => {
 		await expect(fs.access(recordingPath)).resolves.toBeUndefined();
 	});
 });
+

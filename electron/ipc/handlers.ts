@@ -72,3 +72,4 @@ export function registerIpcHandlers(
 	registerProjectHandlers();
 	registerSettingsHandlers();
 }
+

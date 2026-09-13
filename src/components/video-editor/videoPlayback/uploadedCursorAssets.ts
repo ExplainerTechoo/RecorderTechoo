@@ -132,3 +132,4 @@ export function getCursorStyleSizeMultiplier(style: CursorStyle) {
 }
 
 export const uploadedCursorAssets = cursorSetAssets.tahoe;
+

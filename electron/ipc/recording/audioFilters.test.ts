@@ -72,3 +72,4 @@ describe("browser microphone sidecar post-processing", () => {
 		expect(BROWSER_MIC_SIDECAR_NO_AGC_GAIN_FILTERS).toContain("alimiter=limit=0.92:level=0");
 	});
 });
+

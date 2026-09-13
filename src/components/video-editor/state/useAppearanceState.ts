@@ -217,3 +217,4 @@ export function useAppearanceState(preferences: EditorPreferences) {
 		setResolvedWebcamVideoUrl,
 	};
 }
+

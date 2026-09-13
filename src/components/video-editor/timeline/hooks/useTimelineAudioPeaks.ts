@@ -143,3 +143,4 @@ export function useTimelineAudioPeaks(
 
 	return { peaks, loading };
 }
+

@@ -82,3 +82,4 @@ export function hasUnsavedProjectChanges(
 				!areDeepEqual(comparableCurrentSnapshot, comparableLastSavedSnapshot)),
 	);
 }
+

@@ -552,3 +552,4 @@ describe("spring damping regimes", () => {
 		expect(s.value).toBeCloseTo(1, 2);
 	});
 });
+

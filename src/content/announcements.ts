@@ -7,3 +7,4 @@ export const BUNDLED_ANNOUNCEMENT_FEED: AnnouncementFeed = {
 	},
 	announcements: [],
 };
+

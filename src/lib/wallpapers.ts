@@ -159,3 +159,4 @@ export async function getAvailableWallpapers(): Promise<BuiltInWallpaper[]> {
 		return fallbackWallpapers;
 	}
 }
+

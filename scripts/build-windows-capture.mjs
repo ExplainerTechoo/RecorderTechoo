@@ -172,3 +172,4 @@ if (existsSync(exePath)) {
 	console.error("[build-windows-capture] Expected exe not found at", exePath);
 	process.exit(1);
 }
+

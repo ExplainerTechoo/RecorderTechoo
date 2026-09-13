@@ -1020,3 +1020,4 @@ contextBridge.exposeInMainWorld("electronAPI", {
 		return () => ipcRenderer.removeListener("countdown-tick", listener);
 	},
 });
+

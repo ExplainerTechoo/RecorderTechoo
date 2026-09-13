@@ -126,3 +126,4 @@ export function getDecodedFrameTimelineOffsetUs(
 		getDecodedFrameStartupOffsetUs(firstDecodedFrameTimestampUs, metadata)
 	);
 }
+

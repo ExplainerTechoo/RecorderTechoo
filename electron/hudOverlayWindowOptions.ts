@@ -10,3 +10,4 @@ export function getHudOverlayTaskbarOptions(platform: NodeJS.Platform): HudOverl
 		focusable: showInWindowsTaskbar,
 	};
 }
+

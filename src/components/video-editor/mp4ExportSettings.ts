@@ -37,3 +37,4 @@ export function resolveMp4ExportSettings({
 			: (settings.mp4FrameRate ?? mp4FrameRate),
 	};
 }
+

@@ -56,3 +56,4 @@ describe("timeline core/time", () => {
 		expect(huge.intervalMs).toBeGreaterThanOrEqual(typical.intervalMs);
 	});
 });
+

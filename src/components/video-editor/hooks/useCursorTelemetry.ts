@@ -123,3 +123,4 @@ export function useCursorTelemetry({
 
 	return { normalizedCursorTelemetry: normalized, effectiveCursorTelemetry: effective };
 }
+

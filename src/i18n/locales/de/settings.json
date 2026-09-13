@@ -86,7 +86,7 @@
 		"connectedZoomDuration": "Dauer bei verbundenem Zoom",
 		"connectedZoomEasing": "Kurve für verbundenen Schwenk",
 		"zoomEasingOptions": {
-			"recordly": "Recordly",
+			"RecorderTechoo": "RecorderTechoo",
 			"glide": "Glide",
 			"smooth": "Smooth",
 			"snappy": "Snappy",
@@ -257,9 +257,12 @@
 		"deleteRegion": "Audio löschen"
 	},
 	"updates": {
-		"experimentalDescription": "Sie haben experimentelle Updates aktiviert und können daher das neueste Update von Recordly testen, bevor es allgemein verfügbar ist.",
+		"experimentalDescription": "Sie haben experimentelle Updates aktiviert und können daher das neueste Update von RecorderTechoo testen, bevor es allgemein verfügbar ist.",
 		"title": "Updates",
 		"experimental": "Experimentelle Updates",
 		"saveFailed": "Update-Kanal konnte nicht geändert werden."
 	}
 }
+
+
+

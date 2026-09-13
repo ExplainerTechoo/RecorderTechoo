@@ -327,3 +327,4 @@ export function useProjectLibraryController({
 
 	return { refreshProjectLibrary, captureProjectThumbnail };
 }
+

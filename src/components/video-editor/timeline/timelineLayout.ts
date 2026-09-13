@@ -27,3 +27,4 @@ export function getTimelineViewportStretchFactor(rowCount: number) {
 
 	return Math.max(1, normalizedRowCount / TIMELINE_VISIBLE_ROW_COUNT);
 }
+

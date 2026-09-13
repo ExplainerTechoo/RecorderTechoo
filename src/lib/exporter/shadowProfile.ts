@@ -36,3 +36,4 @@ export function getWebcamShadowFilter(shadowSize: number, value: number): string
 export function getShadowFilterPadding(blur: number, offsetY: number): number {
 	return Math.ceil(Math.max(0, blur * 2 + Math.abs(offsetY)));
 }
+

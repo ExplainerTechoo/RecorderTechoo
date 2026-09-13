@@ -10,3 +10,4 @@ export function canToggleFloatingWebcamPreview(
 ): boolean {
 	return hudOverlayMousePassthroughSupported !== false;
 }
+

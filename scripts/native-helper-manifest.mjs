@@ -186,3 +186,4 @@ export function formatNativeHelperManifestWarning(helperLabel, verificationResul
 	const reasonText = verificationResult.reasons.join(", ");
 	return `[${helperLabel}] Bundled helper provenance check failed (${reasonText}). Rebuild the helper to refresh ${path.basename(verificationResult.manifestPath)}.`;
 }
+

@@ -1712,3 +1712,4 @@ export function drawCursorOnCanvas(
 
 	ctx.restore();
 }
+

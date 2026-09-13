@@ -229,3 +229,4 @@ export const VALID_GIF_FRAME_RATES: readonly GifFrameRate[] = [15, 20, 25, 30] a
 export function isValidGifFrameRate(rate: number): rate is GifFrameRate {
 	return VALID_GIF_FRAME_RATES.includes(rate as GifFrameRate);
 }
+

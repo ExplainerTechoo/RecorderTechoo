@@ -155,3 +155,4 @@ export function withCaptionSidecarMessage(
 
 	return `${baseMessage} Captions could not be saved alongside the video.`;
 }
+

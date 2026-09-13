@@ -769,3 +769,4 @@ export function getEditedAudioExtension(mimeType?: string | null): string {
 
 	return ".webm";
 }
+

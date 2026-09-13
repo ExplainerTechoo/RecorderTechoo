@@ -120,3 +120,4 @@ describe("export bitrate policy", () => {
 		).toBe(45_000_000);
 	});
 });
+

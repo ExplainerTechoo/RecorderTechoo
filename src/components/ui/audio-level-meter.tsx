@@ -35,3 +35,4 @@ export function AudioLevelMeter({ level, className = "" }: AudioLevelMeterProps)
 		</div>
 	);
 }
+

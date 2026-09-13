@@ -62,3 +62,4 @@ console.log(`[release-checksums] wrote ${relativePath(outputPath)}`);
 for (const artifact of releaseArtifacts) {
 	console.log(`[release-checksums] ${relativePath(artifact)}`);
 }
+

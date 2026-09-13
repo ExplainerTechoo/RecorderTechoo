@@ -249,3 +249,4 @@ export class StreamingVideoDecoder {
 		this.pendingFrames.length = 0;
 	}
 }
+

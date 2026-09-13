@@ -332,3 +332,4 @@ export function resolveDragEnd(
 
 	return { span: clamped, rowId: resolvedRowId };
 }
+

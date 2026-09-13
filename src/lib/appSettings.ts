@@ -40,3 +40,4 @@ export function saveAppSetting(key: string, value: unknown): boolean {
 		return false;
 	}
 }
+

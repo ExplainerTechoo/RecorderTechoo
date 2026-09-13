@@ -184,3 +184,4 @@ describe("VideoMuxer target selection", () => {
 		expect(closeSpy).toHaveBeenCalledWith("stream-abort", { abort: true });
 	});
 });
+

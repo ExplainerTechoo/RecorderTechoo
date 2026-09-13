@@ -91,3 +91,4 @@ export function getMp4ExportBitrate(options: {
 	// than double the requested web-delivery target.
 	return Math.max(MIN_MP4_BITRATE, requestedBitrate);
 }
+

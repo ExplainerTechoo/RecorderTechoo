@@ -3605,3 +3605,4 @@ export class FrameRenderer {
 		this.layoutCache = null;
 	}
 }
+

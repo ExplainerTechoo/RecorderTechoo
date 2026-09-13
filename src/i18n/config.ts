@@ -25,3 +25,4 @@ export const I18N_NAMESPACES = [
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
 export type I18nNamespace = (typeof I18N_NAMESPACES)[number];
+

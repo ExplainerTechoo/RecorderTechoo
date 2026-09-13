@@ -5,7 +5,7 @@ import path from "node:path";
 
 const projectRoot = process.cwd();
 const nativeRoot = path.join(projectRoot, "electron", "native");
-const moduleCacheRoot = path.join(os.tmpdir(), "recordly-swift-module-cache");
+const moduleCacheRoot = path.join(os.tmpdir(), "RecorderTechoo-swift-module-cache");
 
 if (process.platform !== "darwin") {
 	console.log("[build-native-helpers] Skipping: host platform is not macOS.");
@@ -28,19 +28,19 @@ function getTargetConfigs() {
 const helpers = [
 	{
 		source: "ScreenCaptureKitRecorder.swift",
-		output: "recordly-screencapturekit-helper",
+		output: "RecorderTechoo-screencapturekit-helper",
 	},
 	{
 		source: "ScreenCaptureKitWindowList.swift",
-		output: "recordly-window-list",
+		output: "RecorderTechoo-window-list",
 	},
 	{
 		source: "SystemCursorAssets.swift",
-		output: "recordly-system-cursors",
+		output: "RecorderTechoo-system-cursors",
 	},
 	{
 		source: "NativeCursorMonitor.swift",
-		output: "recordly-native-cursor-monitor",
+		output: "RecorderTechoo-native-cursor-monitor",
 	},
 ];
 
@@ -83,3 +83,4 @@ for (const target of getTargetConfigs()) {
 		);
 	}
 }
+

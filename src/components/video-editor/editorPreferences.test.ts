@@ -501,3 +501,4 @@ describe("editorPreferences", () => {
 		expect(saveEditorPresets([])).toBe(false);
 	});
 });
+

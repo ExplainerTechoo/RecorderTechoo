@@ -34,3 +34,4 @@ export function writeAppSetting(key: string, value: unknown) {
 	store[key] = value;
 	writeAppSettingsStore(store);
 }
+

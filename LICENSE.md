@@ -8,8 +8,8 @@ Version 3, 19 November 2007
   to power a website or service (SaaS)**, you MUST make your **entire 
   source code** (including all edits) p**ublicly available** under this 
   same AGPLv3 license.
-- You CANNOT use the "Recordly" name or branding for your own project.
-- If you use Recordly's code or create code derived from Recordly you must attribute Recordly in the user-facing UI and the repo.
+- You CANNOT use the "RecorderTechoo" name or branding for your own project.
+- If you use RecorderTechoo's code or create code derived from RecorderTechoo you must attribute RecorderTechoo in the user-facing UI and the repo.
 
 Copyright (C) 2026 distribution
 
@@ -251,3 +251,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+

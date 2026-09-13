@@ -166,3 +166,4 @@ if (existsSync(exePath)) {
 	console.error("[build-cursor-monitor] Expected exe not found at", exePath);
 	process.exit(1);
 }
+

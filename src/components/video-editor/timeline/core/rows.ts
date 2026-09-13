@@ -38,3 +38,4 @@ export function getAudioTrackIndex(rowId: string) {
 	const parsed = Number.parseInt(rowId.slice(AUDIO_ROW_PREFIX.length), 10);
 	return Number.isFinite(parsed) ? Math.max(0, parsed) : 0;
 }
+

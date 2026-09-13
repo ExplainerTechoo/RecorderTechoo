@@ -208,3 +208,4 @@ export function findDominantRegion(
 		? { ...activeRegion, transition: null }
 		: { region: null, strength: 0, blendedScale: null, transition: null };
 }
+

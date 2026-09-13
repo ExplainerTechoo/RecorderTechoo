@@ -31,3 +31,4 @@ export class PreviewVideoSource {
 		this.source.unload();
 	}
 }
+

@@ -182,3 +182,4 @@ describe("applyZoomTransform motion blur routing", () => {
 		expect(zoomBlurFilter.innerRadius).toBe(0);
 	});
 });
+

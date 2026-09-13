@@ -304,3 +304,4 @@ export async function getWallpaperThumbnailUrl(asset: string): Promise<string> {
 }
 
 export default getAssetPath;
+

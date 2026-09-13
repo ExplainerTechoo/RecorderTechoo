@@ -353,3 +353,4 @@ export class AudioTimelineProcessor extends AudioProcessorBase {
 
 	// Create a WAV file header for the given audio parameters.
 }
+

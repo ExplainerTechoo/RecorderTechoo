@@ -198,3 +198,4 @@ export function AddCustomFontDialog({ onFontAdded }: AddCustomFontDialogProps) {
 		</Dialog>
 	);
 }
+

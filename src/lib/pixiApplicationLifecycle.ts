@@ -114,3 +114,4 @@ export function destroyPixiContainer(container: Container | null): void {
 	container.parent?.removeChild(container);
 	container.destroy();
 }
+

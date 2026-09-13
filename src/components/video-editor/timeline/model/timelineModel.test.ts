@@ -176,3 +176,4 @@ describe("timeline model", () => {
 		expect(resolveDropRowId("unknown", "row-audio-1", items)).toBe("row-audio-1");
 	});
 });
+

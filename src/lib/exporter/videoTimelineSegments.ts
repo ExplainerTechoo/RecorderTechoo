@@ -70,3 +70,4 @@ export function splitVideoSegmentsBySpeed(
 	}
 	return result.filter((s) => s.endSec - s.startSec > 0.0001);
 }
+

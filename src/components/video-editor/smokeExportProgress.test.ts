@@ -117,3 +117,4 @@ describe("createSmokeExportProgressSampler", () => {
 		expect(sampler.samples.map((sample) => sample.currentFrame)).toEqual([1, 10]);
 	});
 });
+

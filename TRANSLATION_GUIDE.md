@@ -63,3 +63,4 @@ This checks for:
 
 Current framework is app-wide and ready for full localization rollout.
 Not every UI string is migrated yet. Migration should be done incrementally by namespace to keep PRs reviewable and low-risk.
+

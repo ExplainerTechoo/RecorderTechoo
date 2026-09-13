@@ -198,3 +198,4 @@ export function createVideoEventHandlers(params: VideoEventHandlersParams) {
 		handleSeeking,
 	};
 }
+

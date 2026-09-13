@@ -867,3 +867,4 @@ describe("ModernFrameRenderer temporal webcam sync", () => {
 		).toBeGreaterThan(1);
 	});
 });
+

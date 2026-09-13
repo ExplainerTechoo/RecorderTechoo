@@ -55,3 +55,4 @@ export function getCaptionWordVisualState(_hasWordTimings: boolean, _state: Capt
 		opacity: 1,
 	};
 }
+

@@ -125,3 +125,4 @@ describe("computeCursorFollowFocus", () => {
 		expect(initialFocus).toEqual({ cx: 0.3, cy: 0.7 });
 	});
 });
+

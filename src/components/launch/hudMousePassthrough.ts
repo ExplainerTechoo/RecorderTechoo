@@ -37,3 +37,4 @@ export function shouldRestoreHudMousePassthroughAfterDrag(
 		clientY > bounds.bottom
 	);
 }
+

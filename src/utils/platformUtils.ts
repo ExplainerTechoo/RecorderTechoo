@@ -75,3 +75,4 @@ export const formatShortcut = async (keys: string[]): Promise<string> => {
 		})
 		.join(" + ");
 };
+

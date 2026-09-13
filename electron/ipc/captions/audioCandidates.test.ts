@@ -31,3 +31,4 @@ describe("getCaptionCompanionAudioCandidates", () => {
 		).toEqual([{ path: "recording.mic.wav", label: "microphone audio sidecar" }]);
 	});
 });
+

@@ -71,3 +71,4 @@ export function shouldSeekWebcamMedia({
 
 	return timelineJumped || Math.abs(webcamCurrentTime - desiredTime) > driftThreshold;
 }
+

@@ -235,3 +235,4 @@ export function buildMediaUrl(baseUrl: string, filePath: string): string {
 	const resolved = path.resolve(filePath);
 	return `${baseUrl}/video?path=${encodeURIComponent(resolved)}`;
 }
+

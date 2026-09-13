@@ -46,3 +46,4 @@ export function resolveSourceAudioFallbackPaths(
 			: normalizedPaths.map(({ audioPath }) => audioPath),
 	};
 }
+

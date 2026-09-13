@@ -395,3 +395,4 @@ export function useProjectLifecycle(input: Input) {
 		handleClearWebcam,
 	};
 }
+

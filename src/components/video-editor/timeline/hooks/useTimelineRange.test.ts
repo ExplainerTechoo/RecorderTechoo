@@ -55,3 +55,4 @@ describe("resolveTimelineWheelPanDeltaPx", () => {
 		).toBe(20);
 	});
 });
+

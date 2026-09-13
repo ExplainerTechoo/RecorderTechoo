@@ -84,3 +84,4 @@ describe("ScreenCaptureKitRecorder window capture", () => {
 		expect(recorderSource).toContain("self.windowCropRect = cropRect");
 	});
 });
+

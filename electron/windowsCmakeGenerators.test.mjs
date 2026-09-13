@@ -64,3 +64,4 @@ describe("configureWithWindowsCmakeGenerator", () => {
 		).toThrow(finalError);
 	});
 });
+

@@ -1075,3 +1075,4 @@ export default function TimelineCanvas({
 		</div>
 	);
 }
+

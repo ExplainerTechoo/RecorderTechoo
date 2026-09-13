@@ -219,3 +219,4 @@ describe("buildInteractionZoomSuggestions (click-cluster logic)", () => {
 		expect(s.end).toBeLessThanOrEqual(1_000);
 	});
 });
+

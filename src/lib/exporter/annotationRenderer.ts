@@ -516,3 +516,4 @@ export async function renderAnnotationToCanvas(
 
 	return canvas;
 }
+

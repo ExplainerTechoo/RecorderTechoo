@@ -223,7 +223,7 @@ function normalizeZoomTransitionEasing(
 	value: unknown,
 	fallback: ZoomTransitionEasing,
 ): ZoomTransitionEasing {
-	return value === "recordly" ||
+	return value === "RecorderTechoo" ||
 		value === "glide" ||
 		value === "smooth" ||
 		value === "snappy" ||
@@ -1151,3 +1151,4 @@ export function createProjectData(
 		editor,
 	};
 }
+

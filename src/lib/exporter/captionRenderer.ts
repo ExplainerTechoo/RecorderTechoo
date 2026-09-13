@@ -106,3 +106,4 @@ export function renderCaptions(
 
 	ctx.restore();
 }
+

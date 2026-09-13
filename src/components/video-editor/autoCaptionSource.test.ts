@@ -22,7 +22,7 @@ describe("resolveAutoCaptionSourcePath", () => {
 		).toBe("/Users/test/Desktop/capture.mp4");
 	});
 
-	it("extracts local paths from Recordly media-server URLs", () => {
+	it("extracts local paths from RecorderTechoo media-server URLs", () => {
 		expect(
 			resolveAutoCaptionSourcePath({
 				videoPath:
@@ -52,3 +52,4 @@ describe("resolveAutoCaptionSourcePath", () => {
 		).toBe("/videos/fallback.mp4");
 	});
 });
+

@@ -315,3 +315,4 @@ export function getDisplayedTimelineWindowMs(totalDurationMs: number, trimRegion
 	const clampedStartMs = clamp(firstVisibleStartMs ?? 0, 0, clampedEndMs);
 	return { startMs: clampedStartMs, endMs: clampedEndMs };
 }
+

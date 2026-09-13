@@ -19,3 +19,4 @@ describe("HUD capture protection lifecycle", () => {
 		expect(getHudCaptureExcludedProcessIds("linux", true, 734)).toEqual([]);
 	});
 });
+

@@ -199,3 +199,4 @@ describe("planClipSpeedChange", () => {
 		expect(result.blockedReason).toBe("zoom-overlap");
 	});
 });
+

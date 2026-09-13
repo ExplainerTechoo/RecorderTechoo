@@ -95,3 +95,4 @@ if (hasErrors) {
 }
 
 console.log("i18n-check: locale files are structurally consistent");
+

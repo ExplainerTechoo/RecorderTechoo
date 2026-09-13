@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { loadAppSetting, saveAppSetting } from "@/lib/appSettings";
 
-export const NVIDIA_CUDA_EXPORT_OPT_IN_SETTING_KEY = "recordly.export.experimentalNvidiaCuda";
+export const NVIDIA_CUDA_EXPORT_OPT_IN_SETTING_KEY = "RecorderTechoo.export.experimentalNvidiaCuda";
 
 type NativeExportCapabilitiesResult = {
 	capabilities?: {
@@ -84,3 +84,4 @@ export function useNvidiaCudaExportOptIn({ onEnabled }: { onEnabled?: () => void
 		setExperimentalNvidiaCudaExport,
 	};
 }
+

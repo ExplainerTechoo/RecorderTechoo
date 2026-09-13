@@ -356,3 +356,4 @@ export function selectAnnouncements({
 		})
 		.sort((left, right) => right.priority - left.priority);
 }
+

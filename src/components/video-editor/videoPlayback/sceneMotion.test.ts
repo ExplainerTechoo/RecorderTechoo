@@ -97,3 +97,4 @@ describe("shouldComposePreviewFrame", () => {
 		).toBe(true);
 	});
 });
+

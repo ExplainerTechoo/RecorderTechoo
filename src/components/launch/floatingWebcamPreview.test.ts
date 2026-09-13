@@ -24,3 +24,4 @@ describe("canToggleFloatingWebcamPreview", () => {
 		expect(canToggleFloatingWebcamPreview(false)).toBe(false);
 	});
 });
+

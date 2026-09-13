@@ -101,3 +101,4 @@ export function formatAspectRatioForCSS(
 	}
 	return aspectRatio.replace(":", "/");
 }
+

@@ -65,3 +65,4 @@ export function resizeHudOverlayFallbackBounds(
 		y: clamp(currentBounds.y + currentBounds.height - nextBounds.height, workArea.y, maxY),
 	};
 }
+

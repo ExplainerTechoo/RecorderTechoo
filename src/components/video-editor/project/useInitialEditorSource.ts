@@ -248,3 +248,4 @@ export function useInitialEditorSource({
 		}
 	}, [appearance.autoApplyFreshRecordingAutoZooms, pendingFreshRecordingAutoZoomPathRef]);
 }
+

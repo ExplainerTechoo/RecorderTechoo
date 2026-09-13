@@ -121,3 +121,4 @@ try {
 	printUsage();
 	process.exit(1);
 }
+

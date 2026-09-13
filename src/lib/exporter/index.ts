@@ -42,3 +42,4 @@ export {
 } from "./types";
 export { VideoFileDecoder } from "./videoDecoder";
 export { VideoExporter } from "./videoExporter";
+

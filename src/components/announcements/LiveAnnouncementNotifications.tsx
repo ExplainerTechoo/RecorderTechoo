@@ -116,3 +116,4 @@ export function LiveAnnouncementNotifications({ audience }: { audience: Announce
 
 	return null;
 }
+

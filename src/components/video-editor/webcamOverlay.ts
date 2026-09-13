@@ -259,3 +259,4 @@ export function getCropMatchedWebcamHeightPercent(
 
 	return clamp(safeWidthPercent / cropAspect, 10, 100);
 }
+

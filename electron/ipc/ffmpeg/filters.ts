@@ -256,3 +256,4 @@ export function parseFfmpegDurationSeconds(stderr: string): number | null {
 
 	return hours * 3600 + minutes * 60 + seconds;
 }
+

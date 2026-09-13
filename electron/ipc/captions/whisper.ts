@@ -153,3 +153,4 @@ export async function downloadWhisperSmallModel(
 export async function deleteWhisperSmallModel(): Promise<void> {
 	await fs.rm(WHISPER_SMALL_MODEL_PATH, { force: true });
 }
+

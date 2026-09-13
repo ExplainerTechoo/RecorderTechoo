@@ -22,3 +22,4 @@ export function normalizeRegionSpan(params: {
 
 	return { start: normalizedStart, end: normalizedEnd };
 }
+

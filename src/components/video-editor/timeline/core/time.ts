@@ -114,3 +114,4 @@ export function formatPlayheadTime(ms: number): string {
 	if (min > 0) return `${min}:${sec.toFixed(1).padStart(4, "0")}`;
 	return `${sec.toFixed(1)}s`;
 }
+

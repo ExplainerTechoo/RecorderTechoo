@@ -181,3 +181,4 @@ export function shouldRetryWhisperWithoutJson(error: unknown): boolean {
 	const message = error instanceof Error ? error.message : String(error);
 	return /unknown argument|output-json-full|output-json|ojf|\boj\b/i.test(message);
 }
+

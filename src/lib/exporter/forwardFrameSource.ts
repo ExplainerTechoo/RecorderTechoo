@@ -394,3 +394,4 @@ export class ForwardFrameSource {
 		this.decodeCapacityWaiters.clear();
 	}
 }
+

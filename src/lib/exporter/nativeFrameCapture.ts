@@ -116,3 +116,4 @@ export async function captureCanvasFrameForNativeExport(
 	}
 	return buffer;
 }
+

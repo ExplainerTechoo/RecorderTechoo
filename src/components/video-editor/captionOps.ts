@@ -214,3 +214,4 @@ export function deleteCue(cues: CaptionCue[], id: string): CaptionCue[] {
 	const next = cues.filter((cue) => cue.id !== id);
 	return next.length === cues.length ? cues : sortCaptionCues(next);
 }
+

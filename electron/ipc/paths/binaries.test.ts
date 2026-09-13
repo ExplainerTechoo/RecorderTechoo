@@ -8,7 +8,7 @@ describe("Windows native helper path resolution", () => {
 	let appPath: string;
 
 	beforeEach(async () => {
-		tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "recordly-helper-paths-"));
+		tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "RecorderTechoo-helper-paths-"));
 		appPath = path.join(tempRoot, "App");
 		await fs.mkdir(appPath, { recursive: true });
 
@@ -81,3 +81,4 @@ describe("Windows native helper path resolution", () => {
 		expect(getWindowsCaptureExePath()).toBe(buildOutputPath);
 	});
 });
+

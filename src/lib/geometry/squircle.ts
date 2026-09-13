@@ -133,3 +133,4 @@ export function drawSquircleOnGraphics(graphics: Graphics, rect: SquircleRect) {
 	}
 	graphics.closePath();
 }
+

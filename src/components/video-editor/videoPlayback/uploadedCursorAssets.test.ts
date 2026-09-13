@@ -23,3 +23,4 @@ describe("Windows system cursor assets", () => {
 		expect(getCursorStyleSizeMultiplier("windows11")).toBeCloseTo(32 / 19.0625, 8);
 	});
 });
+

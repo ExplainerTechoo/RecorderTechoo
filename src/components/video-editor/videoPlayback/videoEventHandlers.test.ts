@@ -197,3 +197,4 @@ describe("createVideoEventHandlers", () => {
 		expect(shouldSnapPausedFrameRef.current).toBe(true);
 	});
 });
+

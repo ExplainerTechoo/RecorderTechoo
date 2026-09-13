@@ -48,3 +48,4 @@ export interface AudioPeaksData {
 	durationMs: number;
 	peaks: Float32Array;
 }
+

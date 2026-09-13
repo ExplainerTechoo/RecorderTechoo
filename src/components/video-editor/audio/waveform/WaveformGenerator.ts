@@ -145,3 +145,4 @@ export class WaveformGenerator {
 }
 
 export const waveformGenerator = new WaveformGenerator();
+

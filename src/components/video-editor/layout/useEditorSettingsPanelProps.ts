@@ -226,3 +226,4 @@ export function useEditorSettingsPanelProps(input: Input): ComponentProps<typeof
 		onAnnotationDelete: annotationCommands.handleAnnotationDelete,
 	};
 }
+

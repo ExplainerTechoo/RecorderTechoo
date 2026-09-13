@@ -21,3 +21,4 @@ export function getMediaContentType(filePath: string): string {
 export function isSupportedLocalMediaPath(filePath: string): boolean {
 	return path.extname(filePath).toLowerCase() in MEDIA_CONTENT_TYPES;
 }
+

@@ -37,3 +37,4 @@ export function clampHudOffsetToViewport(
 		y: clampOffsetAxis(offset.y, bounds.top, bounds.bottom, viewport.height),
 	};
 }
+

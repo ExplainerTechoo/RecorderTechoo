@@ -1,7 +1,7 @@
 {
 	"app": {
-		"name": "Recordly",
-		"editorTitle": "Recordly Editor",
+		"name": "RecorderTechoo",
+		"editorTitle": "RecorderTechoo Editor",
 		"subtitle": "Screen recording and editing",
 		"language": "Language",
 		"manageRecordings": "Open recordings folder"
@@ -24,3 +24,6 @@
 		"fileReadError": "There was an error reading the file."
 	}
 }
+
+
+

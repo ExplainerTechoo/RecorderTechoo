@@ -96,3 +96,4 @@ export function useEditorGlobalInteractions({
 		}
 	}, [timeline.selectedCaptionId, timeline.autoCaptions, timeline.setSelectedCaptionId]);
 }
+

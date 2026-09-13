@@ -816,3 +816,4 @@ export function AnnotationSettingsPanel({
 		</div>
 	);
 }
+

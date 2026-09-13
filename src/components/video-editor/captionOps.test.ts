@@ -160,3 +160,4 @@ describe("captionOps.deleteCue", () => {
 		expect(deleteCue(cues, "missing")).toBe(cues);
 	});
 });
+

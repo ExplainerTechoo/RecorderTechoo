@@ -26,3 +26,4 @@ export function resolveAutoCaptionSourcePath(options: AutoCaptionSourceOptions):
 
 	return null;
 }
+

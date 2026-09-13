@@ -97,8 +97,8 @@ export interface EditorPreferences extends PersistedEditorControls {
 	whisperModelPath: string | null;
 }
 
-export const EDITOR_PREFERENCES_STORAGE_KEY = "recordly.editor.preferences";
-export const EDITOR_PRESETS_STORAGE_KEY = "recordly.editor.presets";
+export const EDITOR_PREFERENCES_STORAGE_KEY = "RecorderTechoo.editor.preferences";
+export const EDITOR_PRESETS_STORAGE_KEY = "RecorderTechoo.editor.presets";
 
 const DEFAULT_EDITOR_CONTROLS = normalizeProjectEditor({});
 
@@ -543,3 +543,4 @@ export function saveEditorPresets(presets: EditorPreset[]): boolean {
 		return false;
 	}
 }
+

@@ -314,3 +314,4 @@ describe("Dev-only motion blur persistence", () => {
 		expect(result.zoomMotionBlurTuning).toEqual(defaults.zoomMotionBlurTuning);
 	});
 });
+

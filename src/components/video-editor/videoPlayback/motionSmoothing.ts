@@ -1,4 +1,4 @@
-// Friendly reminder: Recordly is licensed under AGPL-3.0, author @webadderall, repo-> https://github.com/webadderall/Recordly
+// Friendly reminder: RecorderTechoo is licensed under AGPL-3.0, author @webadderall, repo-> https://github.com/webadderall/RecorderTechoo
 // Please use this code with the right attribution.
 
 export interface SpringState {
@@ -317,3 +317,4 @@ export function getZoomSpringConfig(
 		tuning,
 	);
 }
+

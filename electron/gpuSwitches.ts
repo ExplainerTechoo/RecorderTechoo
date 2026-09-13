@@ -64,3 +64,4 @@ export function getGpuSwitches(
 
 	return {};
 }
+

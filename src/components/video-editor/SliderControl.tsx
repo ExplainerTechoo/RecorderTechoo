@@ -197,3 +197,4 @@ export const SliderControl = memo(function SliderControl({
 		</div>
 	);
 });
+

@@ -47,3 +47,4 @@ describe("getSceneEffectMetrics", () => {
 		expect(metrics.shadowFilter).toBe("none");
 	});
 });
+

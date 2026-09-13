@@ -119,3 +119,4 @@ describe("hasUnsavedProjectChanges", () => {
 		expect(hasUnsavedProjectChanges(current, saved)).toBe(true);
 	});
 });
+

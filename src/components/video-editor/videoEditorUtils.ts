@@ -16,3 +16,4 @@ export function getErrorMessage(error: unknown): string {
 	if (typeof error === "string") return error.replace(/^Error:\s*/i, "");
 	return "Something went wrong";
 }
+

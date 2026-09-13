@@ -31,3 +31,4 @@ describe("getHudCaptureExcludedProcessIds", () => {
 		expect(getHudCaptureExcludedProcessIds(platform, enabled, pid as number)).toEqual([]);
 	});
 });
+

@@ -282,3 +282,4 @@ describe("compareVersions", () => {
 		expect(compareVersions("v1.2.9", "1.3.0")).toBe(-1);
 	});
 });
+

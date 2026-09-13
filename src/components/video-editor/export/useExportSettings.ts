@@ -72,3 +72,4 @@ export function useExportSettings(preferences: EditorPreferences, autoCaptions: 
 		captionSidecarCues,
 	};
 }
+

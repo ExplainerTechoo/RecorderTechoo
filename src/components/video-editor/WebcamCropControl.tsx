@@ -488,3 +488,4 @@ export function WebcamCropControl({
 		</div>
 	);
 }
+

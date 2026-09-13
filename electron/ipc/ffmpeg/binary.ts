@@ -159,3 +159,4 @@ export function getFfprobeBinaryPath(): string {
 		"FFprobe binary is unavailable. Install ffprobe-static for this platform or make ffprobe available on PATH.",
 	);
 }
+

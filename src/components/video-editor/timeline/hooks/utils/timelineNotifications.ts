@@ -12,3 +12,4 @@ export const timelineNotifications: TimelineNotifications = {
 	success: (title, description) =>
 		toast.success(title, description ? { description } : undefined),
 };
+

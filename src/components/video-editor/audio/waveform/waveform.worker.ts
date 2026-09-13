@@ -51,3 +51,4 @@ workerScope.onmessage = (e: MessageEvent<WaveformWorkerRequest>) => {
 		});
 	}
 };
+

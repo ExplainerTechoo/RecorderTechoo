@@ -114,3 +114,4 @@ describe("normalizeProjectEditor", () => {
 		expect(editor.webcam.roundness).toBeCloseTo(4.34, 1);
 	});
 });
+

@@ -135,3 +135,4 @@ export function getDevOpenRecordingConfig(search: string): DevOpenRecordingConfi
 		webcamInputPath: params.get("devOpenWebcam"),
 	};
 }
+

@@ -584,3 +584,4 @@ describe("FrameRenderer webcam export path", () => {
 		expect(renderer.backgroundVideoElement).toBeTruthy();
 	});
 });
+

@@ -75,3 +75,4 @@ export function ShortcutsProvider({ children }: { children: ReactNode }) {
 
 	return <ShortcutsContext.Provider value={value}>{children}</ShortcutsContext.Provider>;
 }
+

@@ -157,3 +157,4 @@ export function redoEditorHistoryStack(
 	stack.current = cloneEditorHistorySnapshot(next);
 	return cloneEditorHistorySnapshot(next);
 }
+

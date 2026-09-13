@@ -35,3 +35,4 @@ export function MarqueeText({ text }: { text: string }) {
 		</div>
 	);
 }
+

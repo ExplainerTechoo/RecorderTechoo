@@ -39,3 +39,4 @@ describe("flattenCaptionWords", () => {
 		expect(flattened[0].forcedBreakBefore).toBe(false);
 	});
 });
+

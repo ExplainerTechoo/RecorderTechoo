@@ -152,3 +152,4 @@ export async function resolveMediaElementSource(resource: string): Promise<{
 		revoke: NOOP,
 	};
 }
+

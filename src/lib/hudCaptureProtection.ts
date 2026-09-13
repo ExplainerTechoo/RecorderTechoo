@@ -13,3 +13,4 @@ export function getHudCaptureExcludedProcessIds(
 
 	return [processId];
 }
+

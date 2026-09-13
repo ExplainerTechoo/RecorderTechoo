@@ -18,7 +18,7 @@ Language: EN | [简中](README.zh-CN.md)
 
 ---
 ### Backed by the community
-<a href="https://coderabbit.link/recordly"><img width="400" alt="CodeRabbit Typemark" src="https://github.com/user-attachments/assets/3926ecfd-8652-4f2d-8da8-ac7641017cf5" /></a>
+<a href="https://coderabbit.link/RecorderTechoo"><img width="400" alt="CodeRabbit Typemark" src="https://github.com/user-attachments/assets/3926ecfd-8652-4f2d-8da8-ac7641017cf5" /></a>
 
 ---
 
@@ -57,7 +57,7 @@ Add webcam footage as an overlay bubble, position it with presets or custom coor
 </p>
 
 ## Timeline editing built for demos
-Use drag-and-drop timeline tools for zooms, trims, speed regions, annotations, extra audio regions, and crop-aware edits. Save and reopen work as `.recordly` project files.
+Use drag-and-drop timeline tools for zooms, trims, speed regions, annotations, extra audio regions, and crop-aware edits. Save and reopen work as `.RecorderTechoo` project files.
 
 <p>
   <img width="450" alt="timeline editor" src="https://github.com/user-attachments/assets/3692bd8f-7b8d-4a93-b696-d17c828487ea" />
@@ -67,7 +67,7 @@ Use drag-and-drop timeline tools for zooms, trims, speed regions, annotations, e
 
 RecorderTechoo has a community-driven extension system. Anyone can build and publish extensions that add new capabilities to RecorderTechoo — cursor click sounds, device frames, browser mockups, wallpapers, render hooks, settings panels, and more.
 
-Browse and install community extensions from the [RecorderTechoo Marketplace](https://marketplace.recordly.dev/extensions).
+Browse and install community extensions from the [RecorderTechoo Marketplace](https://marketplace.RecorderTechoo.dev/extensions).
 
 ---
 
@@ -79,7 +79,7 @@ Browse and install community extensions from the [RecorderTechoo Marketplace](ht
 - Jump directly from recording into the editor
 - Capture microphone audio and system audio
 - Use native capture backends where supported
-- Resume editing from saved `.recordly` project files
+- Resume editing from saved `.RecorderTechoo` project files
 - Open existing recordings or existing project files from the app
 
 ### Timeline and Editing
@@ -178,13 +178,13 @@ https://github.com/ExplainerTechoo/RecorderTechoo/releases
 
 ## Arch Linux / Manjaro (yay)
 
-Install from the AUR ([recordly-bin](https://aur.archlinux.org/packages/recordly-bin)):
+Install from the AUR ([RecorderTechoo-bin](https://aur.archlinux.org/packages/RecorderTechoo-bin)):
 
 ```bash
-yay -S recordly-bin
+yay -S RecorderTechoo-bin
 ```
 
-PKGBUILD, desktop entry, release sync, and optional **local-from-source** packaging live in **[recordly-aur](https://github.com/firtoz/recordly-aur)** so this repository stays free of Arch release chores. For maintainer contact and how the package is updated, see that repo or the AUR package page.
+PKGBUILD, desktop entry, release sync, and optional **local-from-source** packaging live in **[RecorderTechoo-aur](https://github.com/firtoz/RecorderTechoo-aur)** so this repository stays free of Arch release chores. For maintainer contact and how the package is updated, see that repo or the AUR package page.
 
 ---
 
@@ -232,7 +232,7 @@ Locally built apps may be quarantined by macOS.
 Remove the quarantine flag with:
 
 ```bash
-xattr -rd com.apple.quarantine /Applications/Recordly.app
+xattr -rd com.apple.quarantine /Applications/RecorderTechoo.app
 ```
 
 ---
@@ -271,7 +271,7 @@ Inside the editor you can:
 - add extra audio regions
 - crop the frame and choose an aspect ratio
 
-Save your work anytime as a `.recordly` project.
+Save your work anytime as a `.RecorderTechoo` project.
 
 ## Export
 
@@ -336,7 +336,7 @@ RecorderTechoo combines a platform-specific capture layer with a renderer-driven
 - The same scene logic used in preview is rendered into exported MP4 or GIF output
 
 **Projects**
-- `.recordly` files store the source media path plus editor state so work can be reopened later
+- `.RecorderTechoo` files store the source media path plus editor state so work can be reopened later
 
 ---
 

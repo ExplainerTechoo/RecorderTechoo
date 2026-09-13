@@ -76,3 +76,4 @@ describe("temporalMotionBlur", () => {
 		expect(plan.map((sample) => sample.offsetUs)).toContain(0);
 	});
 });
+

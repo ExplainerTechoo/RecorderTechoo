@@ -149,3 +149,4 @@ export const RecordingControls = ({
 
 	return memoizedControls;
 };
+

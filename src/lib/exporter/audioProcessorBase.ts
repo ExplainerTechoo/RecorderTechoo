@@ -152,3 +152,4 @@ export class AudioProcessorBase {
 		this.cancelled = true;
 	}
 }
+

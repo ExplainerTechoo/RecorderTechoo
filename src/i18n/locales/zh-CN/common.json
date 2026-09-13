@@ -1,7 +1,7 @@
 {
 	"app": {
-		"name": "Recordly",
-		"editorTitle": "Recordly 编辑器",
+		"name": "RecorderTechoo",
+		"editorTitle": "RecorderTechoo 编辑器",
 		"subtitle": "屏幕录制与编辑",
 		"language": "语言",
 		"manageRecordings": "打开录制文件夹"
@@ -24,3 +24,6 @@
 		"fileReadError": "读取文件时出错。"
 	}
 }
+
+
+

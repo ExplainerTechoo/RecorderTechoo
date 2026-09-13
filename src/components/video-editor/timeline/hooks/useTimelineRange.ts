@@ -117,3 +117,4 @@ export function useTimelineRange({ totalMs, timelineContainerRef }: UseTimelineR
 		handleTimelineWheel,
 	};
 }
+

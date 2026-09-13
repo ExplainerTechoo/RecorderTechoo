@@ -34,7 +34,7 @@ import { moveExportedTempFile } from "./export";
 const tempDirs: string[] = [];
 
 async function makeTempDir() {
-	const dir = await fs.mkdtemp(path.join(os.tmpdir(), "recordly-export-move-"));
+	const dir = await fs.mkdtemp(path.join(os.tmpdir(), "RecorderTechoo-export-move-"));
 	tempDirs.push(dir);
 	return dir;
 }
@@ -51,11 +51,11 @@ describe("moveExportedTempFile", () => {
 		const dir = await makeTempDir();
 		const tempPath = path.join(dir, "export-temp.mp4");
 		const destinationPath = path.join(dir, "export-final.mp4");
-		await fs.writeFile(tempPath, "recordly-export");
+		await fs.writeFile(tempPath, "RecorderTechoo-export");
 
 		await moveExportedTempFile(tempPath, destinationPath);
 
-		await expect(fs.readFile(destinationPath, "utf8")).resolves.toBe("recordly-export");
+		await expect(fs.readFile(destinationPath, "utf8")).resolves.toBe("RecorderTechoo-export");
 		await expect(fs.access(tempPath)).rejects.toThrow();
 	});
 
@@ -84,3 +84,4 @@ describe("moveExportedTempFile", () => {
 		await expect(fs.access(tempPath)).rejects.toThrow();
 	});
 });
+

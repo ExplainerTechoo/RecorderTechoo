@@ -59,3 +59,4 @@ export function roundNativeStaticLayoutContentSize(params: {
 		? fromHeight
 		: fromWidth;
 }
+

@@ -121,3 +121,4 @@ export function EditorSidebar({ t, activeSection, setActiveSection, settingsPane
 		</div>
 	);
 }
+

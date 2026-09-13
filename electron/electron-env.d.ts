@@ -989,3 +989,4 @@ interface AutoCaptionCue {
 		leadingSpace?: boolean;
 	}>;
 }
+

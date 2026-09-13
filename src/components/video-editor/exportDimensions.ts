@@ -102,3 +102,4 @@ export function calculateMp4ExportDimensions(
 		height: normalizeEvenDimension(baseHeight * qualityScale),
 	};
 }
+

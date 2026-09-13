@@ -86,3 +86,4 @@ describe("selectRecordingMimeType", () => {
 		expect(isWebmMimeType(undefined)).toBe(false);
 	});
 });
+

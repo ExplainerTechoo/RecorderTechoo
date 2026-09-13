@@ -7,3 +7,4 @@ export function emitRecordingInterrupted(reason: string, message: string) {
 		}
 	});
 }
+

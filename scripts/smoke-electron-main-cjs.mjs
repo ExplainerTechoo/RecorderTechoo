@@ -28,3 +28,4 @@ if (checkResult.status !== 0) {
 }
 
 console.log(`Electron main CJS smoke passed: ${mainBundlePath}`);
+

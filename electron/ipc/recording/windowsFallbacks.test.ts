@@ -102,3 +102,4 @@ describe("shouldUseWindowsBrowserMicrophoneFallback", () => {
 		).toBe(true);
 	});
 });
+

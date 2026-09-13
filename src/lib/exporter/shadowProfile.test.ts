@@ -22,3 +22,4 @@ describe("getWebcamShadowStrength", () => {
 		expect(filter).toContain("rgba(0, 0, 0, 0.8)");
 	});
 });
+

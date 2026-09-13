@@ -36,3 +36,4 @@ describe("shouldClearSelectedAnnotation", () => {
 		expect(shouldClearSelectedAnnotation([annotation], annotation.id, 1_500)).toBe(false);
 	});
 });
+

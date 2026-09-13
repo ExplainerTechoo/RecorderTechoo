@@ -91,3 +91,4 @@ export function resolveAudioPlacement({
 		durationMs: Math.min(audioDurationMs, availableGap, totalMs - startPos),
 	};
 }
+

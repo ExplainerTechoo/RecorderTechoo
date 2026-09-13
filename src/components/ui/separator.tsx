@@ -24,3 +24,4 @@ export function Separator({ orientation = "horizontal", className }: SeparatorPr
 		/>
 	);
 }
+

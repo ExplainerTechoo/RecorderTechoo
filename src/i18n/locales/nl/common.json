@@ -1,7 +1,7 @@
 {
 	"app": {
-		"name": "Recordly",
-		"editorTitle": "Recordly Editor",
+		"name": "RecorderTechoo",
+		"editorTitle": "RecorderTechoo Editor",
 		"subtitle": "Schermopname en bewerking",
 		"language": "Taal",
 		"manageRecordings": "Opnamemap openen"
@@ -24,3 +24,6 @@
 		"fileReadError": "Er is een fout opgetreden bij het lezen van het bestand."
 	}
 }
+
+
+

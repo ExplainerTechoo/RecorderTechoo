@@ -155,3 +155,4 @@ export function shouldGrantDisplayCapture(
 		isSecurityOriginForDocument(request.securityOrigin, request.currentDocumentUrl)
 	);
 }
+

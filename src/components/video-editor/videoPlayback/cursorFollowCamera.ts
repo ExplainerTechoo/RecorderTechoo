@@ -199,3 +199,4 @@ export function computeCursorFollowFocus(
 
 	return targetFocus;
 }
+

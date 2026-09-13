@@ -1,4 +1,4 @@
-# Releasing Recordly
+# Releasing RecorderTechoo
 
 This repository now uses `electron-builder` + `electron-updater` for macOS, Windows, and Linux auto-updates.
 
@@ -42,8 +42,8 @@ If the certificate you currently have is only `Apple Development`, that is not e
 To export and encode the certificate:
 
 ```bash
-security export -k ~/Library/Keychains/login.keychain-db -t identities -f pkcs12 -P "YOUR_P12_PASSWORD" -o recordly-mac-signing.p12
-base64 < recordly-mac-signing.p12 | pbcopy
+security export -k ~/Library/Keychains/login.keychain-db -t identities -f pkcs12 -P "YOUR_P12_PASSWORD" -o RecorderTechoo-mac-signing.p12
+base64 < RecorderTechoo-mac-signing.p12 | pbcopy
 ```
 
 Paste the copied base64 into `APPLE_SIGNING_CERTIFICATE_P12_BASE64` and the export password into `APPLE_SIGNING_CERTIFICATE_PASSWORD`.
@@ -101,3 +101,4 @@ If you need to rerun publishing for an existing tag, use the manual dispatch for
 - macOS arm64 and x64 builds both publish updater zips, and the release workflow merges them into one `latest-mac.yml` so `electron-updater` can choose the correct architecture automatically.
 - The release workflow publishes versioned artifact names so the generated update metadata matches the uploaded files.
 - `build.yml` is intentionally forced to `--publish never` so ad hoc CI builds do not accidentally upload to a draft release.
+

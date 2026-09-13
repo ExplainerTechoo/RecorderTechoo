@@ -47,3 +47,4 @@ if (!runScript("rebuild:native")) {
 if (!runScript("build:platform-native-helpers")) {
 	process.exit(1);
 }
+

@@ -3,7 +3,7 @@ import os from "node:os";
 import path from "node:path";
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it, vi } from "vitest";
 
-const TMP_ROOT = path.join(os.tmpdir(), `recordly-export-stream-test-${Date.now()}`);
+const TMP_ROOT = path.join(os.tmpdir(), `RecorderTechoo-export-stream-test-${Date.now()}`);
 
 vi.mock("electron", () => ({
 	app: {
@@ -137,3 +137,4 @@ describe("exportStream", () => {
 		);
 	});
 });
+

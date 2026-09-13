@@ -142,3 +142,4 @@ export async function isAacAudioEncodingSupported(
 }
 
 export type TrimLikeRegion = TrimRegion | ClipRegion;
+

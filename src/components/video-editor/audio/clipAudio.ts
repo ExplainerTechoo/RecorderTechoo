@@ -16,3 +16,4 @@ export function isClipMutedById(clipId: string | null, clipRegions: ClipRegion[]
 	if (!clipId) return false;
 	return clipRegions.find((clip) => clip.id === clipId)?.muted ?? false;
 }
+

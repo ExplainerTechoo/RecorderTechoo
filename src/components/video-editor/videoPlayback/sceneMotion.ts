@@ -107,3 +107,4 @@ export function resolveSceneZoomTarget({
 
 	return { scale, focus, progress: strength };
 }
+

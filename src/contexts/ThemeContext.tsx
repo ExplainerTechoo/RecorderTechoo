@@ -13,7 +13,7 @@ interface ThemeContextValue {
 	toggleTheme: () => void;
 }
 
-const THEME_STORAGE_KEY = "recordly.theme";
+const THEME_STORAGE_KEY = "RecorderTechoo.theme";
 
 const ThemeContext = createContext<ThemeContextValue | null>(null);
 
@@ -114,3 +114,4 @@ export function useTheme(): ThemeContextValue {
 	}
 	return context;
 }
+

@@ -35,3 +35,4 @@ describe("timeline core/spans", () => {
 		).toEqual({ start: 0, end: 80 });
 	});
 });
+

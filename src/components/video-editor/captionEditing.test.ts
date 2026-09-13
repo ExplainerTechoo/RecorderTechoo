@@ -142,3 +142,4 @@ describe("captionEditing", () => {
 		expect(updated[0].words).toEqual([{ text: "coughs", startMs: 1_000, endMs: 2_000 }]);
 	});
 });
+

@@ -14,3 +14,4 @@ describe("isMissingWindowsWhisperRuntimeDependency", () => {
 		expect(isMissingWindowsWhisperRuntimeDependency(new Error("bad model"))).toBe(false);
 	});
 });
+

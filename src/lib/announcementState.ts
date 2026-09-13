@@ -44,3 +44,4 @@ export function recordAnnouncementImpression(id: string) {
 	counts[id] = (counts[id] ?? 0) + 1;
 	window.electronAPI.setAppSetting(ANNOUNCEMENT_IMPRESSIONS_KEY, counts);
 }
+

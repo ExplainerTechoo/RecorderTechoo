@@ -207,3 +207,4 @@ export function startWindowBoundsCapture() {
 		}, 250),
 	);
 }
+

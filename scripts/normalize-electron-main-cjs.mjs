@@ -465,3 +465,4 @@ if (isDirectRun) {
 			: "Electron main CJS already normalized: dist-electron/main.cjs",
 	);
 }
+

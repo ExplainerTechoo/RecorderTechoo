@@ -43,3 +43,4 @@ export function toCursorSwaySliderValue(sway: number) {
 export function fromCursorSwaySliderValue(sliderValue: number) {
 	return sliderValue * CURSOR_SWAY_SLIDER_SCALE;
 }
+

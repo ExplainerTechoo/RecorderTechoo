@@ -56,3 +56,4 @@ export function useExportStatusViewModel({ t, session, settings }: Input) {
 
 	return { ...status, exportRenderSpeedLabel, exportPercentLabel };
 }
+

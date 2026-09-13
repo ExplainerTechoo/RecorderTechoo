@@ -12,3 +12,4 @@ describe("cursor preview/export scale", () => {
 		expect(previewCursorHeight / previewWidth).toBeCloseTo(exportCursorHeight / exportWidth, 8);
 	});
 });
+

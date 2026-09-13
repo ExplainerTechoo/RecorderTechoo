@@ -120,3 +120,4 @@ describe("cursor telemetry pause clock", () => {
 		expect(writeFile).not.toHaveBeenCalled();
 	});
 });
+

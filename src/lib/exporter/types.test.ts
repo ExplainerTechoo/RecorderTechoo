@@ -54,3 +54,4 @@ describe("GIF Export Types", () => {
 		});
 	});
 });
+

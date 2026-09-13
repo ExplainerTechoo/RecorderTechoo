@@ -179,3 +179,4 @@ export function useProjectOpenActions({
 
 	return { handleOpenProjectFromLibrary, handleImportMediaOrProject, handleOpenProjectBrowser };
 }
+

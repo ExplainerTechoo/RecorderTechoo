@@ -35,3 +35,4 @@ export function resolveDeleteSelectionTarget({
 	if (selectedCaptionId) return "caption";
 	return "none";
 }
+

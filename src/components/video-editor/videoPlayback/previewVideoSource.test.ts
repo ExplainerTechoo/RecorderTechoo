@@ -123,3 +123,4 @@ describe("PreviewVideoSource", () => {
 		owner.setVideo(null);
 	});
 });
+

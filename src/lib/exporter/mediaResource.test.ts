@@ -32,3 +32,4 @@ describe("getResourceFileName", () => {
 		).toBe("example video.mp4");
 	});
 });
+

@@ -39,3 +39,4 @@ describe("timeline core/rows", () => {
 		expect(isAudioTrackRowId("row-annotation-1")).toBe(false);
 	});
 });
+

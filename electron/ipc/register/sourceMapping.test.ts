@@ -45,3 +45,4 @@ describe("getScreenSourceIdForDisplay", () => {
 		).toBe("screen:fallback:42");
 	});
 });
+

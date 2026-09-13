@@ -89,3 +89,4 @@ export function resolveCursorMotionPresetId(
 ): CursorMotionPresetId {
 	return getMatchingCursorMotionPresetId(values) ?? fallback;
 }
+

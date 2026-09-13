@@ -253,3 +253,4 @@ export function ShortcutsConfigDialog() {
 		</Dialog>
 	);
 }
+

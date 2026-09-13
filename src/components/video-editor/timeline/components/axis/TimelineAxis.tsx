@@ -104,3 +104,4 @@ export default function TimelineAxis({ videoDurationMs, currentTimeMs }: Timelin
 		</div>
 	);
 }
+

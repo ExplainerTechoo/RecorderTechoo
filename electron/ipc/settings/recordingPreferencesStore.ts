@@ -43,3 +43,4 @@ export function createRecordingPreferencesStore(filePath: string) {
 		},
 	};
 }
+

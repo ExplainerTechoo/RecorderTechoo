@@ -56,3 +56,4 @@ describe("getOrderedSupportedMp4EncoderCandidates", () => {
 		});
 	});
 });
+

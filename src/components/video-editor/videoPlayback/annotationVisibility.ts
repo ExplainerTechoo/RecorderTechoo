@@ -28,3 +28,4 @@ export function shouldClearSelectedAnnotation(
 	);
 	return Boolean(selectedAnnotation && !isAnnotationActiveAtTime(selectedAnnotation, timeMs));
 }
+

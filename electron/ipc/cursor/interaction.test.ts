@@ -39,7 +39,7 @@ describe("repairBundledUiohookBinaryForCurrentArch", () => {
 	});
 
 	it("promotes the bundled darwin-arm64 prebuild over a stale incompatible build", async () => {
-		const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "recordly-uiohook-"));
+		const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "RecorderTechoo-uiohook-"));
 		tempRoots.push(tempRoot);
 
 		const packageRoot = path.join(tempRoot, "uiohook-napi");
@@ -71,7 +71,7 @@ describe("repairBundledUiohookBinaryForCurrentArch", () => {
 	});
 
 	it("does not rewrite binaries for unrelated load failures", async () => {
-		const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "recordly-uiohook-"));
+		const tempRoot = await fs.mkdtemp(path.join(os.tmpdir(), "RecorderTechoo-uiohook-"));
 		tempRoots.push(tempRoot);
 
 		const packageRoot = path.join(tempRoot, "uiohook-napi");
@@ -90,3 +90,4 @@ describe("repairBundledUiohookBinaryForCurrentArch", () => {
 		expect(await fs.readFile(buildPath, "utf8")).toBe("existing-build");
 	});
 });
+

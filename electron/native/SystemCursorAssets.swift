@@ -208,3 +208,4 @@ encoder.outputFormatting = [.sortedKeys]
 let data = try encoder.encode(assets)
 FileHandle.standardOutput.write(data)
 
+

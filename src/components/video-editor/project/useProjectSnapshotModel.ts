@@ -46,7 +46,7 @@ export function useProjectSnapshotModel({
 			currentSourcePath?.split(/[\\/]/).pop() ??
 			"";
 		return (
-			fileName.replace(/\.recordly$/i, "").replace(/\.[^.]+$/, "") ||
+			fileName.replace(/\.RecorderTechoo$/i, "").replace(/\.[^.]+$/, "") ||
 			t("editor.project.untitled", "Untitled")
 		);
 	}, [project.currentProjectPath, currentSourcePath, t]);
@@ -213,3 +213,4 @@ export function useProjectSnapshotModel({
 		currentPersistedEditorState,
 	};
 }
+

@@ -278,3 +278,4 @@ export class AudioProcessor extends AudioTranscodeProcessor {
 
 	// Legacy trim-only path used when no speed regions are configured.
 }
+

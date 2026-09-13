@@ -223,3 +223,4 @@ export function waitForFfmpegCaptureStop(
 		process.once("error", onError);
 	});
 }
+

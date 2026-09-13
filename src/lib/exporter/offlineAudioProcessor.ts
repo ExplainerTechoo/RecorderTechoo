@@ -442,3 +442,4 @@ export class OfflineAudioProcessor extends AudioMediaProcessor {
 	// Streaming decode avoids holding the full compressed file in memory alongside
 	// the decoded AudioBuffer, reducing peak memory for large recordings.
 }
+

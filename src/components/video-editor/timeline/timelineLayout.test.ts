@@ -39,3 +39,4 @@ describe("timelineLayout", () => {
 		expect(getTimelineViewportStretchFactor(0)).toBe(1);
 	});
 });
+

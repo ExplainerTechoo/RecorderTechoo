@@ -2223,3 +2223,4 @@ export class FrameRenderer {
 		this.lastSyncedWebcamTime = null;
 	}
 }
+
