@@ -25,7 +25,7 @@ function getQueueKey(projectPath: string): string {
 }
 
 function createTemporaryPath(parentDir: string, label: string): string {
-	return path.join(parentDir, `.RecorderTechoo-${label}-${process.pid}-${randomUUID()}.tmp`);
+	return path.join(parentDir, `.recordertechoo-${label}-${process.pid}-${randomUUID()}.tmp`);
 }
 
 async function getExistingFileMode(filePath: string): Promise<number | undefined> {

@@ -24,10 +24,9 @@ import { formatBinding, SHORTCUT_ACTIONS, SHORTCUT_LABELS } from "@/lib/shortcut
 import { formatShortcut } from "@/utils/platformUtils";
 import { toast } from "sonner";
 
-export const RecorderTechoo_ISSUES_URL = "https://github.com/webadderallorg/RecorderTechoo/issues";
+export const RecorderTechoo_ISSUES_URL = "https://github.com/ExplainerTechoo/RecorderTechoo/issues";
 const RecorderTechoo_DISCORD_URL = "https://discord.gg/sdv2FBVNgE";
-const RecorderTechoo_X_URL = "https://x.com/webadderall";
-const CONTACT_EMAIL = "youngchen3442@gmail.com";
+const RecorderTechoo_GITHUB_URL = "https://github.com/ExplainerTechoo/RecorderTechoo";
 export const APP_HEADER_ACTION_BUTTON_CLASS =
 	"h-7 px-2 text-xs text-muted-foreground hover:bg-foreground/10 hover:text-foreground transition-all gap-1.5";
 export const APP_HEADER_ICON_BUTTON_CLASS =
@@ -113,19 +112,19 @@ export function FeedbackDialog() {
 					<div className="rounded-xl border border-foreground/10 bg-foreground/[0.03] p-4 space-y-3">
 						<div className="flex items-center justify-between gap-3 rounded-lg border border-foreground/5 bg-foreground/5 px-3 py-3">
 							<div>
-								<p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground/70">
-									{t("feedback.emailLabel", "Email")}
+							<p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground/70">
+									{t("feedback.emailLabel", "Contact")}
 								</p>
 								<p className="mt-1 text-sm font-medium text-foreground">
-									{CONTACT_EMAIL}
+									GitHub Issues
 								</p>
 							</div>
 							<Button
 								type="button"
 								variant="outline"
-								onClick={() =>
+							onClick={() =>
 									void openExternalLink(
-										`mailto:${CONTACT_EMAIL}`,
+										RecorderTechoo_ISSUES_URL,
 										t("feedback.openFailed", "Failed to open link."),
 									)
 								}
@@ -136,19 +135,19 @@ export function FeedbackDialog() {
 						</div>
 						<div className="flex items-center justify-between gap-3 rounded-lg border border-foreground/5 bg-foreground/5 px-3 py-3">
 							<div>
-								<p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground/70">
-									{t("feedback.xLabel", "X")}
+							<p className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground/70">
+									{t("feedback.xLabel", "GitHub")}
 								</p>
 								<p className="mt-1 text-sm font-medium text-foreground">
-									@webadderall
+									ExplainerTechoo
 								</p>
 							</div>
 							<Button
 								type="button"
 								variant="outline"
-								onClick={() =>
+							onClick={() =>
 									void openExternalLink(
-										RecorderTechoo_X_URL,
+										RecorderTechoo_GITHUB_URL,
 										t("feedback.openFailed", "Failed to open link."),
 									)
 								}

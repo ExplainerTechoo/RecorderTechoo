@@ -147,6 +147,22 @@ async function migrateLegacyNativeHelperBinaries(): Promise<void> {
 			path.join(app.getPath("userData"), "native-tools", "openscreen-native-cursor-monitor"),
 			getNativeCursorMonitorBinaryPath(),
 		],
+		[
+			path.join(app.getPath("userData"), "native-tools", "recordly-screencapturekit-helper"),
+			getNativeCaptureHelperBinaryPath(),
+		],
+		[
+			path.join(app.getPath("userData"), "native-tools", "recordly-window-list"),
+			getNativeWindowListBinaryPath(),
+		],
+		[
+			path.join(app.getPath("userData"), "native-tools", "recordly-system-cursors"),
+			getSystemCursorHelperBinaryPath(),
+		],
+		[
+			path.join(app.getPath("userData"), "native-tools", "recordly-native-cursor-monitor"),
+			getNativeCursorMonitorBinaryPath(),
+		],
 	];
 
 	for (const [legacyPath, currentPath] of legacyToCurrentPaths) {

@@ -19,8 +19,8 @@ cask "RecorderTechoo" do
 
   zap trash: [
     "~/Library/Application Support/RecorderTechoo",
-    "~/Library/Preferences/dev.RecorderTechoo.app.plist",
-    "~/Library/Saved Application State/dev.RecorderTechoo.app.savedState",
+    "~/Library/Preferences/dev.recordertechoo.app.plist",
+    "~/Library/Saved Application State/dev.recordertechoo.app.savedState",
   ]
 end
 

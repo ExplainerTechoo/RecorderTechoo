@@ -56,7 +56,7 @@ import {
 function getPartialExportDestinationPath(destinationPath: string) {
 	const parsed = path.parse(destinationPath);
 	const suffix = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
-	return path.join(parsed.dir, `.RecorderTechoo-partial-${parsed.name}-${suffix}${parsed.ext}`);
+	return path.join(parsed.dir, `.recordertechoo-partial-${parsed.name}-${suffix}${parsed.ext}`);
 }
 
 const MAX_IN_MEMORY_EXPORT_BYTES = 0x7fffffff;

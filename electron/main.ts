@@ -890,7 +890,7 @@ app.on("second-instance", () => {
 // Register all IPC handlers when app is ready
 app.whenReady().then(async () => {
 	if (process.platform === "win32") {
-		app.setAppUserModelId("dev.RecorderTechoo.app");
+		app.setAppUserModelId("dev.recordertechoo.app");
 	}
 
 	session.defaultSession.setPermissionCheckHandler(

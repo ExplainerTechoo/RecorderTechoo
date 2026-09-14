@@ -10,7 +10,7 @@ import {
 } from "../scripts/macos-distribution-policy.mjs";
 
 const validCodeSigningDetails = `
-Identifier=dev.RecorderTechoo.app
+Identifier=dev.recordertechoo.app
 CodeDirectory v=20500 size=123 flags=0x10000(runtime) hashes=3+7 location=embedded
 Authority=Developer ID Application: RecorderTechoo Developer (A1B2C3D4E5)
 Authority=Developer ID Certification Authority

@@ -10,8 +10,8 @@
 </p>
 
 ### 无需额外剪辑，也能做出精致的屏幕录制。
-[RecorderTechoo](https://www.RecorderTechoo.dev) 是一款**开源屏幕录制器**和编辑器，适合制作**操作讲解、演示、产品视频**等内容。  
-**欢迎提交 PR。** [赞助](https://ko-fi.com/webadderall/goal?g=0)
+[RecorderTechoo](https://github.com/ExplainerTechoo/RecorderTechoo) 是一款**开源屏幕录制器**和编辑器，适合制作**操作讲解、演示、产品视频**等内容。  
+**欢迎提交 PR。**
 
 https://github.com/user-attachments/assets/9b66c71d-ac97-49ff-a0c9-63ac26edf2e4
 
@@ -168,7 +168,7 @@ RecorderTechoo 拥有一个社区驱动的扩展系统。任何人都可以构�
 
 预构建发布版本请见：
 
-https://github.com/webadderallorg/RecorderTechoo/releases
+https://github.com/ExplainerTechoo/RecorderTechoo/releases
 
 ---
 
@@ -201,7 +201,7 @@ sudo apt install build-essential cmake libx11-dev libxtst-dev libxrandr-dev libx
 ### 步骤
 
 ```bash
-git clone https://github.com/webadderallorg/RecorderTechoo.git RecorderTechoo
+git clone https://github.com/ExplainerTechoo/RecorderTechoo.git RecorderTechoo
 cd RecorderTechoo
 npm install
 npm run dev
@@ -358,15 +358,13 @@ RecorderTechoo 将平台相关的捕获层与基于渲染器的编辑、导出�
 
 问题反馈和功能建议：
 
-https://github.com/webadderallorg/RecorderTechoo/issues
+https://github.com/ExplainerTechoo/RecorderTechoo/issues
 
 欢迎提交 Pull Request。
 
 ---
 
 # 支持者名单
-
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/webadderall)
 
 - Tadees
 - buildwithfur
@@ -395,7 +393,8 @@ RecorderTechoo 基于 **AGPL 3.0** 发布。
 RecorderTechoo 最初是从 [OpenScreen](https://github.com/siddharthvaddem/openscreen) 分叉而来，之后已逐步演变为一个不同的项目。
 
 创建者  
-[@webadderall](https://x.com/webadderall)
+[**distribution**](https://github.com/ExplainerTechoo/RecorderTechoo)  
+仓库维护者 **Kartik Chobdar** (@ExplainerTechoo)
 
 ---
 

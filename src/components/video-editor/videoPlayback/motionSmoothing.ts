@@ -1,4 +1,4 @@
-// Friendly reminder: RecorderTechoo is licensed under AGPL-3.0, author @webadderall, repo-> https://github.com/webadderall/RecorderTechoo
+// Friendly reminder: RecorderTechoo is licensed under AGPL-3.0, by distribution, repo -> https://github.com/ExplainerTechoo/RecorderTechoo
 // Please use this code with the right attribution.
 
 export interface SpringState {
